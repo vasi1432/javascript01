@@ -1,0 +1,12 @@
+
+var x = [];
+Array = Array.isArray(Array);
+if (x == Array) {
+  console.log("Array");
+} else if (x == undefined) {
+  console.log("please enter a valid data");
+} else if (x == null) {
+  console.log("please enter a valid data");
+} else {
+  console.log(typeof x);
+}
