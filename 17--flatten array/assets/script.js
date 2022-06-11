@@ -1,10 +1,10 @@
 const arr = [
   18,
   {
-    a: [1, 2, 3, "text"],
+    a: [1, 2, 3, 4, 5, 6, 7, 8, "text"],
   },
-  [[1, 2, 3, { a: [1, 2, 3, "text"] }]],
-  [2, 4, 5],
+  [[11, 22, 33, { a: [1, 2, 3, "text"] }]],
+  [22, 44, 55],
 ];
 // first of all we iterate our array
 // check the current is  numbers and print
@@ -22,16 +22,19 @@ const arr = [
 function flattenNum(input) {
   var result = [];
   for (let i = 0; i < arr.length; i++) {
-    currentElement = arr[i];
+    currentElement = input[i];
     if (typeof currentElement === "number") {
       result.push(currentElement);
-    } else if (Array.isArray(currentElement)) {
-      const res = flattenNum(currentElement);
-
+    }
+    if (Array.isArray(currentElement)) {
+      var res = flattenNum(currentElement);
       var result = [...result, ...res];
-    } else if (typeof currentElement === "object") {
-      const res = flattenNum(currentElement);
-      var result = Object.values(currentElement);
+      continue;
+    }
+    if (typeof currentElement === "object") {
+      var res = flattenNum(Object.values(currentElement));
+      var result = [...result, ...res];
+      continue;
     }
   }
   return result;
@@ -42,7 +45,7 @@ console.log(flattenNum(arr));
 // .
 // .
 // .
-// .
+
 // const inputArray = [
 //   7,
 //   {
@@ -63,16 +66,16 @@ console.log(flattenNum(arr));
 //   NaN,
 // ];
 
-/**
- * Step 1 - Iterate the input
- * Step 2 - Check if the current element is a number
- * Step 2.1 - If true, push that element to the new array & continue
- * Step 3   -  Check if currentElement is array
- * Step 3.1 -  If true, recursively call the function
- * Step 3.2 - Merge the output with the result arr & continue
- * Step 4   - Check if typeof === object
- * Step 4.1 - If true, get all keys values & recursively handle it & update the result
- */
+// /**
+//  * Step 1 - Iterate the input
+//  * Step 2 - Check if the current element is a number
+//  * Step 2.1 - If true, push that element to the new array & continue
+//  * Step 3   -  Check if currentElement is array
+//  * Step 3.1 -  If true, recursively call the function
+//  * Step 3.2 - Merge the output with the result arr & continue
+//  * Step 4   - Check if typeof === object
+//  * Step 4.1 - If true, get all keys values & recursively handle it & update the result
+//  */
 
 // function flatNumbers(input) {
 //   let results = [];
