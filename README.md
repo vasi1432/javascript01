@@ -53,3 +53,13 @@
 
 
 19--filter Remove Duplicate characters from array of element
+
+
+21--String reverse with reversing of individual words
+
+
+
+22--Check if a string is an Anagram
+
+
+23--Find factorial of user input nu
