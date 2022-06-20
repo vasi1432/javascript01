@@ -63,3 +63,6 @@
 
 
 23--Find factorial of user input nu
+
+
+24--union of two array
