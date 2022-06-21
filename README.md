@@ -45,3 +45,5 @@
 24--union of two array
 
 25-- To find longest word from a string using custom code
+
+26--To find vowels and its count in a given string
