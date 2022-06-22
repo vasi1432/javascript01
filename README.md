@@ -47,3 +47,11 @@
 25-- To find longest word from a string using custom code
 
 26--To find vowels and its count in a given string
+
+30--find first duplicate element from an array
+
+31--uppercase for each first letter of a word
+
+32--check ending of the string
+
+33--to find the largest element of 2d array
