@@ -36,6 +36,8 @@
 
 19--filter Remove Duplicate characters from array of element
 
+20--check string is anagram or not
+
 21--String reverse with reversing of individual words
 
 22--Check if a string is an Anagram
