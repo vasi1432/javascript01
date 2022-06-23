@@ -50,4 +50,14 @@
 
 26--To find vowels and its count in a given string
 
+27--To find a first pair whose sum is 0
+
+28--To find the largest pair of the 2
+
+29--find the index of element of an array
+
 30--find first duplicate element from an array
+
+31--uppercase for each first letter of a word
+
+32--check ending of the string
