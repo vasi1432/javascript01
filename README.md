@@ -65,3 +65,7 @@
 33--find the largest element of 2d array
 
 34--print string n times/index.html
+
+35--Maximum of all subarrays of size k
+
+36-- convert one dimenshion array in n dimension
