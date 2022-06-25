@@ -69,3 +69,5 @@
 35--Maximum of all subarrays of size k
 
 36-- convert one dimenshion array in n dimension
+
+37--fine only truthy value
