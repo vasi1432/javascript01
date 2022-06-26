@@ -75,3 +75,7 @@
 38--find truthy value using filter
 
 39--Checking all letters of second words should present in first word
+
+40--Checking all letters of second words should present in first word, using indexOf with indexing
+
+41--Unique values only from 2 arrays
