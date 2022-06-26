@@ -71,3 +71,7 @@
 36-- convert one dimenshion array in n dimension
 
 37--fine only truthy value
+
+38--find truthy value using filter
+
+39--Checking all letters of second words should present in first word
