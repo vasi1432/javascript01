@@ -81,3 +81,5 @@
 41--Unique values only from 2 arrays
 
 42--Remove Duplicates from 2 arrays using Set
+
+43--Sum of all numbers from start to end given number
