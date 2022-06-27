@@ -79,3 +79,5 @@
 40--Checking all letters of second words should present in first word, using indexOf with indexing
 
 41--Unique values only from 2 arrays
+
+42--Remove Duplicates from 2 arrays using Set
