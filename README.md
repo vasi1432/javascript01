@@ -83,3 +83,7 @@
 42--Remove Duplicates from 2 arrays using Set
 
 43--Sum of all numbers from start to end given number
+
+45--remove or delete elements
+
+45--Spiral Matrix Printing
