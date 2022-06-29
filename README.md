@@ -87,3 +87,5 @@
 45--remove or delete elements
 
 45--Spiral Matrix Printing
+
+47--Find SUM, PRODUCT AND AVERAGE of the numbers
