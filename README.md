@@ -89,3 +89,5 @@
 45--Spiral Matrix Printing
 
 47--Find SUM, PRODUCT AND AVERAGE of the numbers
+
+48--Convert 2D,3D array into 1D using reduce function and inbuilt functio
