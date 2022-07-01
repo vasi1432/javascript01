@@ -93,3 +93,5 @@
 48--Convert 2D,3D array into 1D using reduce function and inbuilt functio
 
 49--Reverse of a nuber using converting into string
+
+51--To find the second largest number in an array
