@@ -95,3 +95,19 @@
 49--Reverse of a nuber using converting into string
 
 51--To find the second largest number in an array
+
+51--To find the second largest number in an array1
+
+52--To find the closest number in an array from the given input
+
+53--To check whether particular word
+
+54--To check whether particular word
+
+55--To check wheather property exist or not in object
+
+56--To delete the property of an object
+
+57--To find the length of the array in custom way
+
+58--Star Pattern 1
