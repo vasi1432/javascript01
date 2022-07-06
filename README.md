@@ -111,3 +111,5 @@
 57--To find the length of the array in custom way
 
 58--Star Pattern 1
+
+59--Star Pattern 2
