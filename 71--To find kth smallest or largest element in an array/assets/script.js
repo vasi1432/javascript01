@@ -9,4 +9,3 @@ let result = {
   largest: arr[length - 1],
 };
 console.log(result);
-//2
