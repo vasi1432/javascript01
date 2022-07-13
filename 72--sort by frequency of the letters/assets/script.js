@@ -1,15 +1,17 @@
 const input = "cCaaAAbbbBBB";
-let arr = input.split(``);
-console.log(arr);
+let output = "";
 let result = {};
-counter = 1;
-for (let i = 0; i < arr.length; i++) {
-  if (arr[i] !== arr[i + 1]) {
-    result.key = arr[i];
-    result.value = counter++;
-    i++;
+for (const letter of input) {
+  result[letter] = (result[letter] || 0) + 1;
+}
+let res = Object.keys(result).sort((a, b) => result[b] - result[a]);
+console.log(result);
+console.log(res);
+for (letter of res) {
+  for (let i = 0; i < result[letter]; i++) {
+    output += letter;
   }
 }
-console.log(result);
+console.log(output);
 // Output
 // ("bbbBBBaaAAcC");
