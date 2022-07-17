@@ -113,3 +113,47 @@
 58--Star Pattern 1
 
 59--Star Pattern 2
+
+59--Star Pattern 2
+
+60--Number Pattern
+
+61--Number Pattern2
+
+62--Star Pattern decreasing order
+
+63--Square root of every num in array
+
+64--Make alternate character to upper cas
+
+65--To find the negative values in an array or 2D Array
+
+66--Find first repeating character with its index from an array
+
+67--To find all the subsets of the set
+
+68--To find the maximum repetation of the character in a string
+
+69--Adding an elements to the array when elements are consecutive numbers upto 10
+
+70--reate a new array by adding one to each elements of the existing array
+
+71--To find kth smallest or largest element in an array
+
+72--sort by frequency of the letters
+
+73--To find the occurance of the character in a string
+
+74--Find permutation of a string
+
+75--Grouping of an Anagram
+
+76--To find the power of x with or without using Math function
+
+77--4 Ways to empty an array. You need to comeup with 4 different approaches
+
+78--Sort an array of an element by parity means even then odd elements
+
+79--Print consecutive numbers
+
+80--Move all the zeroes at the end of an elements
