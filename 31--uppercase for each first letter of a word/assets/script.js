@@ -1,18 +1,21 @@
 // uppercase for each first letter of word
 //split string to iterate avery word of giver string
 //split it to add the remaining letters of the string
-let str = "i am a front end Developer";
-let arr = str.split(" ");
-let result = [];
-
-for (let i = 0; i < arr.length; i++) {
-  result.push(arr[i][0].toUpperCase() + arr[i].slice(1));
-}
-console.log(result.join(" "));
-
-//using map function
-let str01 = "i am a front end Developer";
-let uppercase = str01.split(" ").map((zero) => {
-  return zero[0].toUpperCase() + zero.slice(1);
-});
-console.log(uppercase.join(" "));
+var capitalizeTitle = function (title) {
+  let result = [];
+  let arr = title.split(` `);
+  for (let i = 0; i < arr.length; i++) {
+    for (let j = 0; j < arr[i].length; j++) {
+      if (arr[i].length >= 3) {
+        if (j === 0) {
+          result.push(arr[i][0].toUpperCase());
+        } else {
+          result.push(arr[i][j].toLowerCase());
+        }
+      }
+    }
+    result.push(" ");
+  }
+  return result.join("");
+};
+console.log(capitalizeTitle("capiTalIze tHe titLe"));
